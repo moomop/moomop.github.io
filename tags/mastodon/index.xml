@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mastodon on Coffee now</title>
+    <link>https://coffeenow.moomop.uk/tags/mastodon/</link>
+    <description>Recent content in Mastodon on Coffee now</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://coffeenow.moomop.uk/tags/mastodon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy blogiversary and  2 months on Mastodon</title>
+      <link>https://coffeenow.moomop.uk/post/2023/07/two-year-blogiversary/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://coffeenow.moomop.uk/post/2023/07/two-year-blogiversary/</guid>
+      <description>It was ~2 years ago that we started this blog as a way to share long-form musings or the simple stuff going on on our lives with, well, with anyone who wanted to read it. Then, ~2 months ago, coffeenow also joined the fediverse and now has its own account on Mastodon&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

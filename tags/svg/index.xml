@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>svg on Coffee now</title>
+    <link>https://coffeenow.moomop.uk/tags/svg/</link>
+    <description>Recent content in svg on Coffee now</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://coffeenow.moomop.uk/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An easy-to-print dated A5 planner: the script</title>
+      <link>https://coffeenow.moomop.uk/post/2023/10/planner-date-script/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://coffeenow.moomop.uk/post/2023/10/planner-date-script/</guid>
+      <description>With a lot of hobbies, there’s always the bit that’s the chore. Maybe washing your brushes if you’re painting, figuring out code if you’re blogging, weighing the ingredients if you’re baking (endless washing if you’re running?). With making paper planners, it’s the dating, printing, cutting and punching&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Pitfalls of replacing an icon font with svg icons</title>
+      <link>https://coffeenow.moomop.uk/post/2022/04/svg-icons/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://coffeenow.moomop.uk/post/2022/04/svg-icons/</guid>
+      <description>This blog uses a fair few icons, such as the icons in the menu. Until today, these had been placed using a font kit from Font Awesome, which worked by using JavaScript to replace tags with the appropriate icon from their library. However, for some time I’d been wanting to move away from this method&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

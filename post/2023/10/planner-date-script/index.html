@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<meta name="robots" content="noai, noimageai">
+<title>An easy-to-print dated A5 planner: the script | Coffee now</title>
+<meta name="keywords" content="planning, personalized planner, graphic design, python, svg" />
+<meta name="description" content="With a lot of hobbies, there’s always the bit that’s the chore. Maybe washing your brushes if you’re painting, figuring out code if you’re blogging, weighing the ingredients if you’re baking (endless washing if you’re running?). With making paper planners, it’s the dating, printing, cutting and punching&hellip;">
+<meta name="author" content="James, Clare">
+<link rel="canonical" href="https://coffeenow.moomop.uk/post/2023/10/planner-date-script/" />
+
+
+
+<link crossorigin="anonymous" href="/css/stylesheet.min.4ee7d708f1517f7a9bd0c9a1cdfe9bdeec450b24c5e2e96e5579d94d83856f61.css" integrity="sha256-TufXCPFRf3qb0Mmhzf6b3uxFCyTF4uluVXnZTYOFb2E=" rel="preload stylesheet" as="style">
+<link rel="preload" href="https://coffeenow.moomop.uk/img/coffeenow-mug.png" as="image">
+<script src="https://coffeenow.moomop.uk/js/PhotoGridBox.js"></script>
+<script src="https://coffeenow.moomop.uk/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+<script src="https://coffeenow.moomop.uk/PhotoSwipe/photoswipe.min.js"></script>
+<script src="https://coffeenow.moomop.uk/js/theme.js"></script>
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://coffeenow.moomop.uk/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://coffeenow.moomop.uk/favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://coffeenow.moomop.uk/favicons/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://coffeenow.moomop.uk/favicons/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.92.2" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<meta property="og:site_name" content="Coffee now | A personal blog - old host" />
+<meta property="og:title" content="An easy-to-print dated A5 planner: the script" />
+<meta property="og:description" content="With a lot of hobbies, there’s always the bit that’s the chore. Maybe washing your brushes if you’re painting, figuring out code if you’re blogging, weighing the ingredients if you’re baking (endless washing if you’re running?). With making paper planners, it’s the dating, printing, cutting and punching&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://coffeenow.moomop.uk/post/2023/10/planner-date-script/" /><meta property="og:image" content="https://coffeenow.moomop.uk/post/2023/10/planner-date-script/printer_doodle.png" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-10-08T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2023-10-08T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="An easy-to-print dated A5 planner: the script"/>
+<meta name="twitter:description" content="With a lot of hobbies, there’s always the bit that’s the chore. Maybe washing your brushes if you’re painting, figuring out code if you’re blogging, weighing the ingredients if you’re baking (endless washing if you’re running?). With making paper planners, it’s the dating, printing, cutting and punching&hellip;"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://coffeenow.moomop.uk/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "An easy-to-print dated A5 planner: the script",
+      "item": "https://coffeenow.moomop.uk/post/2023/10/planner-date-script/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "An easy-to-print dated A5 planner: the script",
+  "name": "An easy-to-print dated A5 planner: the script",
+  "description": "With a lot of hobbies, there’s always the bit that’s the chore. Maybe washing your brushes if you’re painting, figuring out code if you’re blogging, weighing the ingredients if you’re baking (endless washing if you’re running?). With making paper planners, it’s the dating, printing, cutting and punching\u0026hellip;",
+  "keywords": [
+    "planning", "personalized planner", "graphic design", "python", "svg"
+  ],
+  "articleBody": "With a lot of hobbies, there’s always the bit that’s the chore. Maybe washing your brushes if you’re painting, figuring out code if you’re blogging, weighing the ingredients if you’re baking (endless washing if you’re running?). With making paper planners, it’s the dating, printing, cutting and punching.\nDesigning your layout is fun; adding the stickers and writing in your plans or journalling is fun. Dating, printing, cutting and punching, just uggg. So anything that can make your life easier there is definitely a massive win.\nBack when I (Clare) was last talking about my making my 2022 planner, I had a design where each week went over two spreads, with the first spread being specific to each week (i.e. containing calendars and dates), and the second spread being generic and repeated each week. However, since then, I’ve simplified things and now want to print a planner with only one spread per week.\nThe trouble is this means every page of the planner is unique, and then, unless you have a duplex printer that does ‘booklet printing’, or you print on paper already at the size of your final planner (neither of which is true for me), you can’t simply make the planner pages in the order you eventually will have your pages. For each of my A4 sheets of paper, I need the four A5 planner pages to go in the order - front left, page 4; front right, page 1; back left, page 2; back right, page 3.\nThis is definitely more clear with a diagram:\n So there’s a chore before you even get to the printing - re-ordering your pages, by hand. This is extra tedious, and very error prone as you lose your place as you’re going along, and have to try and work out what’s on the back of what - probably more than once.\nSo I had to ask James to step in here with a script. One that didn’t just add the dates to my design but also ordered the pages; however, before we could actually get onto the writing and using of such a script, we needed templates for my actual design that would work for that.\nMaking the SVG planner templates As my final planner is A5, creating the templates as A5 pages (well a little bit smaller than A5 to allow for a margin), rather than as A4 spreads, is much more flexible given that it means pages can be reordered easily if e.g. more page styles need to be added in the future.\nThen page design is separated from the ordering of the pages into the overall planner (i.e. we don’t need to worry about whether the page will be on the left or right side at the point we design the template).\nAt the moment, I only have three A5 page styles that are repeated for the year:\n an A5 monthly summary that always becomes a right-hand page - dated elements are a month calendar grid and the name of the month an A5 left-hand week page - this also has a month calendar and a header saying what week it is an A5 right-hand page that has a header with the date and a dated box for each day of the week  A rough sketch (page 1 is on the back of page 2) on this is below:\n The first three pages of the planner as it would be for 2023. Page 4 would be a repeat of page 2 but for week 2 and so on.\n  All the pages are in the SVG vector format - they are created in Inkscape. However, what you don’t see when looking at SVGs in graphics software is they are actually just text (xml), with that text describing various aspects of the images in a well-documented way (see e.g. this mdn tutorial).\nBecause the files are text, it is then easy to use simple scripts to modify them through a find-and-replace strategy.\nSo the next step is, instead of having ‘January’ etc., to use placeholder ‘strings’ for all the dated elements (circled in red in diagram above) that need to be changed each week. However, it’s important that the strings chosen don’t occur elsewhere in the SVG, so to reduce the chance of matching something not intended, we used the convention (inspired by the python string format syntax) of enclosing the items to replace in curly braces.\n Example A5 template before the find-replace\n  One extra issue is that the number of rows in the month calendar grids varies depending on the number of weeks in the month, which means the geometry of the surrounding elements needs to be tweaked to accommodate that.\nTo overcome this, in the case of the month summary, we have made three templates for each of the three options (months can extend over 4, 5 or 6 weeks). This works OK for now, but isn’t the easiest to maintain as any updates need to be made on all three copies. The other template with a calender grid has an area that is an OK size to just about allow for the 6-week grid.\nOnce, you have your templates, you then need the script to run on them. The rest of the post explains the script to the world, just in case anyone else can be inspired by it.\nAutomating the planner creation Intended audience: we hope non-technical readers should be able to follow the thinking behind the code steps. To follow the details and update the script for a new planner style, you’d need to know a little python.\n To automate the repetitive parts of replacing the placeholder values with the appropriate date information for each month, and ordering the A5 pages into A4 spreads, I (James) wrote a Python script.\nThe planner generation script:\n performs a find-and-replace on the date-related elements to create all the A5 individual SVG pages for a year combines the A5 page SVGs into A4 SVGs creates a PDF from the SVGs that can be sent to a standard single-sided A4 printer without further intervention  Code for each step is described below.\n1. Create a year’s worth of A5 SVGs The script works through the weeks in the year creating each of the A5 SVGs in the order that they will appear in the finished planner. For each page, it picks the appropriate template, does the find-replace and writes the resulting file.\nSome of the replacements need to be updated each time the script creates the pages for a new week, others (e.g. the replacements for the calendar grid) are the same for a whole month. As the script steps through the weeks, it identifies when it has reached the start of a new month and updates the per-month replacements before generating the start of month pages.\nDetermining what values to use for the replacements needs to take into account the calendar for the year. For example, we need to figure out which month each week is in and what dates correspond to each day of the week. Fortunately, the python standard library includes the datetime module, which is used to take care of much of the work of dealing with dates. This leaves us free to forget about the rhyme for remembering the number of days in each month and whether or not it’s a leap year.\nThe following snippet shows how the script determines the replacements for a calendar grid of a given month. It creates a date object representing the first day of the month and subtracts the appropriate number of days to find the first day of the grid, which is the Monday of the first week (e.g. if the first of the month is a Wednesday it subtracts 2 days). Then it loops over the 42 grid positions advancing the date by 1 day each time it goes through the loop. In each case, it can check if this date is within the month (dates at the start and end of the grid can be in the preceding or following months) and if so, set up the replacement with the correct the day of the month.\n# Setup replacements for calendar grid. SVG templates contain grids like # M T W T F S S # {1} {2} {3} {4} {5} {6} {7} # ... # {36} {37} {38} {39} {40} {41} {42} # # These replacements are used to replace the days of the month (or empty string # if the day is outside the current month) # We will want to know the number of weeks in the month. Use this set to keep # track of them. weeks_in_month = set() # Iterate over the 42 days starting from first day in the grid first_day_of_month = datetime.date(year,month,1) first_day_of_grid = first_day_of_month - datetime.timedelta(days=first_day_of_month.isocalendar().weekday - 1) for day in range(0,42): date = first_day_of_grid + datetime.timedelta(days=day) if date.month != month: # replace dates that are outside current month with empty string template_page_manager.replacements['{'+ str(day+1) + '}'] = '' else: template_page_manager.replacements['{'+ str(day+1) + '}'] = str(date.day) weeks_in_month.add(date.isocalendar().week) Similar code is used for the other placeholder replacements.\n2. Create combined A4 SVG pages To create the A4 spreads for printing, we wanted to arrange two of the A5 pages side by side to form the A4 page. The easiest way I found to do that was to create an SVG that referred to each of the A5 pages using an internal SVG image tag.\nWhen combining them to form an A4 spread, padding is added to position the templates approximately centrally within each half of the spread.\nStarting at the beginning, you take four pages at a time and use those to create two A4 SVGs optionally reordering the pages as shown above to put the 4th and 1st page on the front and 2nd and 3rd pages on the back (i.e. the arrangement shown in top diagram above). That part is taken care of by the following code:\nif args.reorder: # Reorder pages for printing  first_a4_right = a5_pages.pop(0) second_a4_left = a5_pages.pop(0) second_a4_right = a5_pages.pop(0) first_a4_left = a5_pages.pop(0) else: # Leave pages in order first_a4_left = a5_pages.pop(0) first_a4_right = a5_pages.pop(0) second_a4_left = a5_pages.pop(0) second_a4_right = a5_pages.pop(0) For each of the A4 spreads, the script generates a rather minimal SVG file containing only the two A5 SVG images plus a couple of short lines that we wanted to mark the centreline of the spread to aid trimming. The contents of one of these SVGs looks like this:\n version=\"1.1\" width=\"297mm\" height=\"210mm\" xmlns=\"http://www.w3.org/2000/svg\"  x=\"5.5mm\" y=\"5mm\" width=\"135mm\" height=\"200mm\" href=\"../../planner_files_2023/a5_pages/002_week_pad_week1.svg\"/  x=\"156.5mm\" y=\"5mm\" width=\"135mm\" height=\"200mm\" href=\"../../planner_files_2023/a5_pages/003_week_daylist_week1.svg\"/  x1=\"50%\" x2=\"50%\" y1=\"90%\" y2=\"91%\" stroke=\"black\" stroke-width=\"0.5\"/  x1=\"50%\" x2=\"50%\" y1=\"9%\" y2=\"10%\" stroke=\"black\" stroke-width=\"0.5\"/  This SVG isn’t generated using a template, but directly written by the following python function:\n# Function to create an A4 svg that includes to two 135 by 200 mm (slightly smaller than A5) # pages as svg images: def write_a4_svg(left_a5, right_a5, a4_filename): with open(a4_filename,'w') as output_svg: output_svg.write('\\n') if left_a5 is not None: output_svg.write(f'{left_a5}\"/\\n') if right_a5 is not None: output_svg.write(f'{right_a5}\"/\\n') # Add two short lines to mark the centerline to aid cutting output_svg.write('\\n') output_svg.write('\\n') output_svg.write('\\n') Which is called once for each of the A4 spreads:\na4_filename = (os.path.join(template_page_manager.a4_svgs_dir, f'{a4_num:03d}.svg')) a4_svg_files.append(a4_filename) write_a4_svg(left_a5=first_a4_left, right_a5=first_a4_right, a4_filename=a4_filename) a4_num += 1 a4_filename = (os.path.join(template_page_manager.a4_svgs_dir, f'{a4_num:03d}.svg')) a4_svg_files.append(a4_filename) write_a4_svg(left_a5=second_a4_left, right_a5=second_a4_right, a4_filename=a4_filename) a4_num += 1 Note that for general use, this seems a bit clunky as this SVG requires the image SVGs to be in the correct relative locations. It might be easier to manage if everything were combined into a single file. Probably that could be achieved by combining elements from the SVGs into a single file and using the  element to arrange them. For our use case, this simple way using image is OK as the next step is to convert these SVG files into PDFs…\n3. Creating the final PDF For printing, we wanted to convert these SVG files into PDF to make them portable for printing. We also wanted combine all the A4 PDFs into a single multipage file to make the printing process less tedious.\nTo do this, we used external tools (run from the script using the python subprocess module). There are probably many other options that could work, but we used CairoSVG for the conversion and Ghostscript for combining PDFs.\nConvert all the A4 SVGs into PDFs using cairosvg:\nfor a4_svg in a4_svg_files: a4_pdf = os.path.basename(a4_svg)[0:-3] + 'pdf' a4_pdf = os.path.join(template_page_manager.a4_pdfs_dir,a4_pdf) a4_pdf_files.append(a4_pdf) cmd = f'cairosvg -o {a4_pdf}{a4_svg}' logging.debug(f\"Executing command: {cmd}\") subprocess.run(cmd, shell=True) This processes each SVG using commands like:\ncairosvg -o planner_files_2023/a4_pdfs/004.pdf planner_files_2023/a4_svgs/004.svg Create a final output by merging all these PDFs into a single file using Ghostscript:\nmerged_pdf_file = os.path.join(template_page_manager.year_dir,f'merged_year_{year}.pdf') cmd = f'gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dAutoRotatePages=/None -sOutputFile={merged_pdf_file}{\" \".join(a4_pdf_files)}' logging.debug(f\"Executing command: {cmd}\") subprocess.run(cmd, shell=True) The command run here is something like:\ngs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dAutoRotatePages=/None -sOutputFile=planner_files_2023/merged_year_2023.pdf planner_files_2023/a4_pdfs/001.pdf planner_files_2023/a4_pdfs/002.pdf planner_files_2023/a4_pdfs/003.pdf planner_files_2023/a4_pdfs/004.pdf ... planner_files_2023/a4_pdfs/064.pdf For what it’s worth, in principle Inkscape itself could be used in a command line mode to create the PDFs. However, on my system, opening files from the command line with Inkscape seems broken (probably due to this known issue).\n Final PDF after find and replace and combining pages\n  In case they’re useful to anyone wanting to do something similar, the complete script (under an MIT license) and templates (under a CC-BY-NC 4.0 license) are available at:\n https://github.com/moomop/planner-generator\n Making your own planner As planner layouts are quite personal, these scripts are’t very configurable (e.g. we’re only working with a Monday-start week, being from the UK), but if you were thinking of trying the same for your own layout, you’d first create templates with whatever art, dot grids and fonts etc. you want with in SVG format, and then tweak the find-and-replace done by the script.\nIt would also be possible to update the script to add extra templates (e.g. say you want 3 or 4 pages per week or an end of month retrospective page).\nGotchas and future improvements While following this flow, I found a few oddities when viewing the Inkscape-created SVGs in other programs (I tried browsers such as firefox/chrome as well as cairosvg for converting into PDF).\nAlthough in principle SVG is a standard, so should look the same everywhere (assuming these were valid SVGs - I didn’t actually check), I found that some elements could fail to show or display slightly differently in some viewers.\nRather than fully investigate those, I updated the templates by removing and redrawing those elements. Along the way I also found a few duplicated elements in the SVGs. It could be that some of these issues stem from the rather old version of Inkscape that we’d used a few years ago to first create some of these SVG drawings.\nIt would definitely be possible to go further and automate more of the geometrical elements of the planner (the dot grids, corner markers etc.) probably using something like drawsvg.\n Extra shots  ‘The Python Tutorial’ from python.org\nhttps://docs.python.org/3/tutorial/ Inkscape beginners' guide\nhttps://inkscape-manuals.readthedocs.io  ",
+  "wordCount" : "2518",
+  "inLanguage": "en",
+  "datePublished": "2023-10-08T00:00:00Z",
+  "dateModified": "2023-10-08T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "James"
+  }, {
+    "@type": "Person",
+    "name": "Clare"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://coffeenow.moomop.uk/post/2023/10/planner-date-script/"
+  },
+  "publisher": {
+    "@type": "Website",
+    "name": "Coffee now | A personal blog - old host",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://coffeenow.moomop.uk/favicons/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header" id="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://coffeenow.moomop.uk/" accesskey="h">
+                <img src="https://coffeenow.moomop.uk/img/coffeenow-mug.png" alt="logo" aria-label="logo"
+                    height="40">Coffee now</a>
+            <span class="logo-switches">
+            </span>
+        </div>
+
+        <ul id="menu">
+            <li>
+                <a href="https://coffeenow.moomop.uk/archives/">
+                    <span>
+                    <span class=menu-item-logo><svg aria-hidden="true" class="big-content-icon"><use href="https://coffeenow.moomop.uk/icons.svg#layers"></use></svg></span>
+                    <span>All posts</span>
+                        </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://coffeenow.moomop.uk/tags/">
+                    <span>
+                    <span class=menu-item-logo><svg aria-hidden="true" class="big-content-icon"><use href="https://coffeenow.moomop.uk/icons.svg#tag"></use></svg></span>
+                    <span>Tags</span>
+                        </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://coffeenow.moomop.uk/search/" accesskey=/>
+                    <span>
+                    <span class=menu-item-logo><svg aria-hidden="true" class="big-content-icon"><use href="https://coffeenow.moomop.uk/icons.svg#search"></use></svg></span>
+                    <span>Search</span>
+                        </span>
+                </a>
+            </li>
+        </ul>
+        <button class="hamburger hamburger--squeeze" id="header-hamburger" type="button" aria-label="menu">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      An easy-to-print dated A5 planner: the script
+    </h1>
+    <div class="post-meta"><span>8 October 2023</span>&nbsp;·&nbsp;10 min read&nbsp;·&nbsp;James, Clare
+
+</div>
+  </header> 
+  <div class="post-content"><p>With a lot of hobbies, there’s always the bit that’s the chore. Maybe washing your brushes if you’re painting, figuring out code if you’re blogging, weighing the ingredients if you’re baking (endless washing if you’re running?). With making paper planners, it’s the dating, printing, cutting and punching.</p>
+<p>Designing your layout is fun; adding the stickers and writing in your plans or journalling is fun. Dating, printing, cutting and punching, just uggg. So anything that can make your life easier there is definitely a massive win.</p>
+<p>Back when I (Clare) was last <a href="https://coffeenow.moomop.uk/post/2021/10/planner-construction/">talking about my making my 2022 planner</a>, I had a design where each week went over two spreads, with the first spread being specific to each week (i.e. containing calendars and dates), and the second spread being generic and repeated each week. However, since then, I’ve simplified things and now want to print a planner with only one spread per week.</p>
+<p>The trouble is this means every page of the planner is unique, and then, unless you have a duplex printer that does ‘booklet printing’, or you print on paper already at the size of your final planner (neither of which is true for me), you can’t simply make the planner pages in the order you eventually will have your pages. For each of my A4 sheets of paper, I need the four A5 planner pages to go in the order - front left, page 4; front right, page 1; back left, page 2; back right, page 3.</p>
+<p>This is definitely more clear with a diagram:</p>
+<figure class="cn_fig-75">
+    <img loading="lazy" src="booklet.svg"
+         alt="diagram of page order for booklet printing of a planner"/> 
+</figure>
+
+<p>So there’s a chore before you even get to the printing - re-ordering your pages, by hand. This is extra tedious, and very error prone as you lose your place as you’re going along, and have to try and work out what’s on the back of what - probably more than once.</p>
+<p>So I had to ask James to step in here with a script. One that didn’t just add the dates to my design but also ordered the pages; however, before we could actually get onto the writing and using of such a script, we needed templates for my actual design that would work for that.</p>
+<h2 id="making-the-svg-planner-templates">Making the SVG planner templates<a hidden class="anchor" aria-hidden="true" href="#making-the-svg-planner-templates">#</a></h2>
+<p>As my final planner is A5, creating the templates as A5 pages (well a little bit smaller than A5 to allow for a margin), rather than as A4 spreads, is much more flexible given that it means pages can be reordered easily if e.g. more page styles need to be added in the future.</p>
+<p>Then page design is separated from the ordering of the pages into the overall planner (i.e. we don&rsquo;t need to worry about whether the page will be on the left or right side at the point we design the template).</p>
+<p>At the moment, I only have three A5 page styles that are repeated for the year:</p>
+<ul>
+<li>an A5 monthly summary that always becomes a right-hand page - dated elements are a month calendar grid and the name of the month</li>
+<li>an A5 left-hand week page - this also has a month calendar and a header saying what week it is</li>
+<li>an A5 right-hand page that has a header with the date and a dated box for each day of the week</li>
+</ul>
+<p>A rough sketch (page 1 is on the back of page 2) on this is below:</p>
+<figure class="cn_fig-100">
+    <img loading="lazy" src="templates.svg"
+         alt="diagram of three templates as would be used in the planner"/> <figcaption>
+            <p>The first three pages of the planner as it would be for 2023. Page 4 would be a repeat of page 2 but for week 2 and so on.</p>
+        </figcaption>
+</figure>
+
+<p>All the pages are in the SVG vector format - they are created in <a href="https://inkscape.org">Inkscape</a>. However, what you don&rsquo;t see when looking at SVGs in graphics software is they are actually just text (xml), with that text describing various aspects of the images in a well-documented way (see e.g. <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial">this mdn tutorial</a>).</p>
+<p>Because the files are text, it is then easy to use simple scripts to modify them through a find-and-replace strategy.</p>
+<p>So the next step is, instead of having &lsquo;January&rsquo; etc., to use placeholder &lsquo;strings&rsquo; for all the dated elements (circled in red in diagram above) that need to be changed each week. However, it&rsquo;s important that the strings chosen don&rsquo;t occur elsewhere in the SVG, so to reduce the chance of matching something not intended, we used the convention (inspired by  the <a href="https://docs.python.org/3/library/string.html#format-string-syntax">python string format syntax</a>) of enclosing the items to replace in curly braces.</p>
+<figure class="cn_fig-75">
+    <img loading="lazy" src="week_pad_template_screenshot.png"
+         alt="Screenshot of Inkscape showing an example A5 template with placeholder text"
+         width="1241"
+         height="1753"
+         /> <figcaption>
+            <p>Example A5 template before the find-replace</p>
+        </figcaption>
+</figure>
+
+<p>One extra issue is that the number of rows in the month calendar grids varies depending on the number of weeks in the month, which means the geometry of the surrounding elements needs to be tweaked to accommodate that.</p>
+<p>To overcome this, in the case of the month summary, we have made three templates for each of the three options (months can extend over 4, 5 or 6 weeks). This works OK for now, but isn&rsquo;t the easiest to maintain as any updates need to be made on all three copies. The other template with a calender grid has an area that is an OK size to just about allow for the 6-week grid.</p>
+<p>Once, you have your templates, you then need the script to run on them. The rest of the post explains the script to the world, just in case anyone else can be inspired by it.</p>
+<h2 id="automating-the-planner-creation">Automating the planner creation<a hidden class="anchor" aria-hidden="true" href="#automating-the-planner-creation">#</a></h2>
+<aside class="content-box">
+<p><strong>Intended audience</strong>: we hope non-technical readers should be able to follow the thinking behind the code steps. To follow the details and update the script for a new planner style, you&rsquo;d need to know a little python.</p>
+</aside>
+<p>To automate the repetitive parts of replacing the placeholder values with the appropriate date information for each month, and ordering the A5 pages into A4 spreads, I (James) wrote a <a href="https://python.org">Python</a> script.</p>
+<p>The planner generation script:</p>
+<ol>
+<li>performs a find-and-replace on the date-related elements to create all the A5 individual SVG pages for a year</li>
+<li>combines the A5 page SVGs into A4 SVGs</li>
+<li>creates a PDF from the SVGs that can be sent to a standard single-sided A4 printer without further intervention</li>
+</ol>
+<p>Code for each step is described below.</p>
+<h3 id="1-create-a-years-worth-of-a5-svgs">1. Create a year&rsquo;s worth of A5 SVGs<a hidden class="anchor" aria-hidden="true" href="#1-create-a-years-worth-of-a5-svgs">#</a></h3>
+<p>The script works through the weeks in the year creating each of the A5 SVGs in the order that they will appear in the finished planner.  For each page, it picks the appropriate template, does the find-replace and writes the resulting file.</p>
+<p>Some of the replacements need to be updated each time the script creates the pages for a new week, others (e.g. the replacements for the calendar grid) are the same for a whole month. As the script steps through the weeks, it identifies when it has reached the start of a new month and updates the per-month replacements before generating the start of month pages.</p>
+<p>Determining what values to use for the replacements needs to take into account the calendar for the year. For example, we need to figure out which month each week is in and what dates correspond to each day of the week. Fortunately, the python standard library includes the <a href="https://docs.python.org/3/library/datetime.html?highlight=datetime#module-datetime">datetime</a> module, which is used to take care of much of the work of dealing with dates. This leaves us free to forget about the rhyme for remembering the number of days in each month and whether or not it&rsquo;s a leap year.</p>
+<p>The following snippet shows how the script determines the replacements for a calendar grid of a given month. It creates a date object representing the first day of the month and subtracts the appropriate number of days to find the first day of the grid, which is the Monday of the first week (e.g. if the first of the month is a Wednesday it subtracts 2 days). Then it loops over the 42 grid positions advancing the date by 1 day each time it goes through the loop. In each case, it can check if this date is within the month (dates at the start and end of the grid can be in the preceding or following months) and if so, set up the replacement with the correct the day of the month.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Setup replacements for calendar grid. SVG templates contain grids like</span>
+<span style="color:#75715e">#  M    T    W    T    F    S    S</span>
+<span style="color:#75715e"># {1}  {2}  {3}  {4}  {5}  {6}  {7}</span>
+<span style="color:#75715e"># ...</span>
+<span style="color:#75715e"># {36} {37} {38} {39} {40} {41} {42}</span>
+<span style="color:#75715e">#</span>
+<span style="color:#75715e"># These replacements are used to replace the days of the month (or empty string</span>
+<span style="color:#75715e"># if the day is outside the current month)</span>
+
+<span style="color:#75715e"># We will want to know the number of weeks in the month. Use this set to keep</span>
+<span style="color:#75715e"># track of them.</span>
+weeks_in_month <span style="color:#f92672">=</span> set()
+
+<span style="color:#75715e"># Iterate over the 42 days starting from first day in the grid</span>
+first_day_of_month <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>date(year,month,<span style="color:#ae81ff">1</span>)
+first_day_of_grid <span style="color:#f92672">=</span> first_day_of_month <span style="color:#f92672">-</span> datetime<span style="color:#f92672">.</span>timedelta(days<span style="color:#f92672">=</span>first_day_of_month<span style="color:#f92672">.</span>isocalendar()<span style="color:#f92672">.</span>weekday <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+
+<span style="color:#66d9ef">for</span> day <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">42</span>):
+    date <span style="color:#f92672">=</span> first_day_of_grid <span style="color:#f92672">+</span> datetime<span style="color:#f92672">.</span>timedelta(days<span style="color:#f92672">=</span>day)
+        <span style="color:#66d9ef">if</span> date<span style="color:#f92672">.</span>month <span style="color:#f92672">!=</span> month:
+        <span style="color:#75715e"># replace dates that are outside current month with empty string</span>
+    template_page_manager<span style="color:#f92672">.</span>replacements[<span style="color:#e6db74">&#39;{&#39;</span><span style="color:#f92672">+</span> str(day<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;}&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>  
+    <span style="color:#66d9ef">else</span>:
+        template_page_manager<span style="color:#f92672">.</span>replacements[<span style="color:#e6db74">&#39;{&#39;</span><span style="color:#f92672">+</span> str(day<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;}&#39;</span>] <span style="color:#f92672">=</span> str(date<span style="color:#f92672">.</span>day)
+        weeks_in_month<span style="color:#f92672">.</span>add(date<span style="color:#f92672">.</span>isocalendar()<span style="color:#f92672">.</span>week)</code></pre></div>
+<p>Similar code is used for the other placeholder replacements.</p>
+<h3 id="2-create-combined-a4-svg-pages">2. Create combined A4 SVG pages<a hidden class="anchor" aria-hidden="true" href="#2-create-combined-a4-svg-pages">#</a></h3>
+<p>To create the A4 spreads for printing, we wanted to arrange two of the A5 pages side by side to form the A4 page. The easiest way I found to do that was to create an SVG that referred to each of the A5 pages using an internal <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_Image_Tag">SVG image tag</a>.</p>
+<p>When combining them to form an A4 spread, padding is added to position the templates approximately centrally within each half of the spread.</p>
+<p>Starting at the beginning, you take four pages at a time and use those to create two A4 SVGs optionally reordering the pages as shown above to put the 4th and 1st page on the front and 2nd and 3rd pages on the back (i.e. the arrangement shown in top diagram above). That part is taken care of by the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> args<span style="color:#f92672">.</span>reorder:
+    <span style="color:#75715e"># Reorder pages for printing </span>
+    first_a4_right  <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)
+    second_a4_left  <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)
+    second_a4_right <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)
+    first_a4_left   <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)
+<span style="color:#66d9ef">else</span>:
+    <span style="color:#75715e"># Leave pages in order</span>
+    first_a4_left   <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)
+    first_a4_right  <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)
+    second_a4_left  <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)
+    second_a4_right <span style="color:#f92672">=</span> a5_pages<span style="color:#f92672">.</span>pop(<span style="color:#ae81ff">0</span>)</code></pre></div>
+<p>For each of the A4 spreads, the script generates a rather minimal SVG file containing only the two A5 SVG images plus a couple of short lines that we wanted to mark the centreline of the spread to aid trimming. The contents of one of these SVGs looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-svg" data-lang="svg"><span style="color:#f92672">&lt;svg</span> <span style="color:#a6e22e">version=</span><span style="color:#e6db74">&#34;1.1&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;297mm&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;210mm&#34;</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://www.w3.org/2000/svg&#34;</span><span style="color:#f92672">&gt;</span>
+<span style="color:#f92672">&lt;image</span> <span style="color:#a6e22e">x=</span><span style="color:#e6db74">&#34;5.5mm&#34;</span>   <span style="color:#a6e22e">y=</span><span style="color:#e6db74">&#34;5mm&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;135mm&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;200mm&#34;</span> <span style="color:#a6e22e">href=</span><span style="color:#e6db74">&#34;../../planner_files_2023/a5_pages/002_week_pad_week1.svg&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;image</span> <span style="color:#a6e22e">x=</span><span style="color:#e6db74">&#34;156.5mm&#34;</span> <span style="color:#a6e22e">y=</span><span style="color:#e6db74">&#34;5mm&#34;</span> <span style="color:#a6e22e">width=</span><span style="color:#e6db74">&#34;135mm&#34;</span> <span style="color:#a6e22e">height=</span><span style="color:#e6db74">&#34;200mm&#34;</span> <span style="color:#a6e22e">href=</span><span style="color:#e6db74">&#34;../../planner_files_2023/a5_pages/003_week_daylist_week1.svg&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;line</span> <span style="color:#a6e22e">x1=</span><span style="color:#e6db74">&#34;50%&#34;</span> <span style="color:#a6e22e">x2=</span><span style="color:#e6db74">&#34;50%&#34;</span> <span style="color:#a6e22e">y1=</span><span style="color:#e6db74">&#34;90%&#34;</span> <span style="color:#a6e22e">y2=</span><span style="color:#e6db74">&#34;91%&#34;</span> <span style="color:#a6e22e">stroke=</span><span style="color:#e6db74">&#34;black&#34;</span> <span style="color:#a6e22e">stroke-width=</span><span style="color:#e6db74">&#34;0.5&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;line</span> <span style="color:#a6e22e">x1=</span><span style="color:#e6db74">&#34;50%&#34;</span> <span style="color:#a6e22e">x2=</span><span style="color:#e6db74">&#34;50%&#34;</span> <span style="color:#a6e22e">y1=</span><span style="color:#e6db74">&#34;9%&#34;</span> <span style="color:#a6e22e">y2=</span><span style="color:#e6db74">&#34;10%&#34;</span> <span style="color:#a6e22e">stroke=</span><span style="color:#e6db74">&#34;black&#34;</span> <span style="color:#a6e22e">stroke-width=</span><span style="color:#e6db74">&#34;0.5&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;/svg&gt;</span></code></pre></div>
+<p>This SVG isn&rsquo;t generated using a template, but directly written by the following python function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Function to create an A4 svg that includes to two 135 by 200 mm (slightly smaller than A5)</span>
+<span style="color:#75715e"># pages as svg images:</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">write_a4_svg</span>(left_a5, right_a5, a4_filename):
+    <span style="color:#66d9ef">with</span> open(a4_filename,<span style="color:#e6db74">&#39;w&#39;</span>) <span style="color:#66d9ef">as</span> output_svg:
+        output_svg<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;&lt;svg version=&#34;1.1&#34; width=&#34;297mm&#34; height=&#34;210mm&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+        <span style="color:#66d9ef">if</span> left_a5 <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span>:
+          output_svg<span style="color:#f92672">.</span>write(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;&lt;image x=&#34;5.5mm&#34;   y=&#34;5mm&#34; width=&#34;135mm&#34; height=&#34;200mm&#34; href=&#34;../../</span><span style="color:#e6db74">{</span>left_a5<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;/&gt;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+        <span style="color:#66d9ef">if</span> right_a5 <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span>:
+           output_svg<span style="color:#f92672">.</span>write(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;&lt;image x=&#34;156.5mm&#34; y=&#34;5mm&#34; width=&#34;135mm&#34; height=&#34;200mm&#34; href=&#34;../../</span><span style="color:#e6db74">{</span>right_a5<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;/&gt;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+        <span style="color:#75715e"># Add two short lines to mark the centerline to aid cutting</span>
+        output_svg<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;&lt;line x1=&#34;50%&#34; x2=&#34;50%&#34; y1=&#34;90%&#34; y2=&#34;91%&#34; stroke=&#34;black&#34; stroke-width=&#34;0.5&#34;/&gt;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+        output_svg<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;&lt;line x1=&#34;50%&#34; x2=&#34;50%&#34; y1=&#34;9%&#34; y2=&#34;10%&#34; stroke=&#34;black&#34; stroke-width=&#34;0.5&#34;/&gt;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+        output_svg<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;&lt;/svg&gt;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)</code></pre></div>
+<p>Which is called once for each of the A4 spreads:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a4_filename <span style="color:#f92672">=</span> (os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(template_page_manager<span style="color:#f92672">.</span>a4_svgs_dir, <span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{</span>a4_num<span style="color:#e6db74">:</span><span style="color:#e6db74">03d</span><span style="color:#e6db74">}</span><span style="color:#e6db74">.svg&#39;</span>))
+a4_svg_files<span style="color:#f92672">.</span>append(a4_filename)
+write_a4_svg(left_a5<span style="color:#f92672">=</span>first_a4_left, right_a5<span style="color:#f92672">=</span>first_a4_right, a4_filename<span style="color:#f92672">=</span>a4_filename)
+a4_num <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+a4_filename <span style="color:#f92672">=</span> (os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(template_page_manager<span style="color:#f92672">.</span>a4_svgs_dir, <span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">{</span>a4_num<span style="color:#e6db74">:</span><span style="color:#e6db74">03d</span><span style="color:#e6db74">}</span><span style="color:#e6db74">.svg&#39;</span>))
+a4_svg_files<span style="color:#f92672">.</span>append(a4_filename)
+write_a4_svg(left_a5<span style="color:#f92672">=</span>second_a4_left, right_a5<span style="color:#f92672">=</span>second_a4_right, a4_filename<span style="color:#f92672">=</span>a4_filename)  
+a4_num <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span></code></pre></div>
+<p>Note that for general use, this seems a bit clunky as this SVG requires the image SVGs to be in the correct relative locations. It might be easier to manage if everything were combined into a single file. Probably that could be achieved by combining elements from the SVGs into a single file and using the <code>&lt;use&gt;</code> element to arrange them. For our use case, this simple way using image is OK as the next step is to convert these SVG files into PDFs&hellip;</p>
+<h3 id="3-creating-the-final-pdf">3. Creating the final PDF<a hidden class="anchor" aria-hidden="true" href="#3-creating-the-final-pdf">#</a></h3>
+<p>For printing, we wanted to convert these SVG files into PDF to make them portable for printing. We also wanted combine all the A4 PDFs into a single multipage file to make the printing process less tedious.</p>
+<p>To do this, we used external tools (run from the script using the python <a href="https://docs.python.org/3/library/subprocess.html?highlight=subprocess#module-subprocess">subprocess module</a>). There are probably many other options that could work, but  we used <a href="https://cairosvg.org/">CairoSVG</a> for the conversion and <a href="https://www.ghostscript.com/">Ghostscript</a> for combining PDFs.</p>
+<p>Convert all the A4 SVGs into PDFs using cairosvg:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> a4_svg <span style="color:#f92672">in</span> a4_svg_files:
+    a4_pdf <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>basename(a4_svg)[<span style="color:#ae81ff">0</span>:<span style="color:#f92672">-</span><span style="color:#ae81ff">3</span>] <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;pdf&#39;</span>
+    a4_pdf <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(template_page_manager<span style="color:#f92672">.</span>a4_pdfs_dir,a4_pdf)
+    a4_pdf_files<span style="color:#f92672">.</span>append(a4_pdf)
+    cmd <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;cairosvg -o </span><span style="color:#e6db74">{</span>a4_pdf<span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span>a4_svg<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39;</span>
+    logging<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Executing command: </span><span style="color:#e6db74">{</span>cmd<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+    subprocess<span style="color:#f92672">.</span>run(cmd, shell<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)</code></pre></div>
+<p>This processes each SVG using commands like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cairosvg -o planner_files_2023/a4_pdfs/004.pdf planner_files_2023/a4_svgs/004.svg</code></pre></div>
+<p>Create a final output by merging all these PDFs into a single file using Ghostscript:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">merged_pdf_file <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(template_page_manager<span style="color:#f92672">.</span>year_dir,<span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;merged_year_</span><span style="color:#e6db74">{</span>year<span style="color:#e6db74">}</span><span style="color:#e6db74">.pdf&#39;</span>)
+cmd <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dAutoRotatePages=/None -sOutputFile=</span><span style="color:#e6db74">{</span>merged_pdf_file<span style="color:#e6db74">}</span><span style="color:#e6db74"> </span><span style="color:#e6db74">{</span><span style="color:#e6db74">&#34; &#34;</span><span style="color:#f92672">.</span>join(a4_pdf_files)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39;</span>
+logging<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Executing command: </span><span style="color:#e6db74">{</span>cmd<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+subprocess<span style="color:#f92672">.</span>run(cmd, shell<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)</code></pre></div>
+<p>The command run here is something like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gs -dBATCH -dNOPAUSE -q -sDEVICE<span style="color:#f92672">=</span>pdfwrite -dAutoRotatePages<span style="color:#f92672">=</span>/None -sOutputFile<span style="color:#f92672">=</span>planner_files_2023/merged_year_2023.pdf planner_files_2023/a4_pdfs/001.pdf planner_files_2023/a4_pdfs/002.pdf planner_files_2023/a4_pdfs/003.pdf planner_files_2023/a4_pdfs/004.pdf ... planner_files_2023/a4_pdfs/064.pdf</code></pre></div>
+<p>For what it&rsquo;s worth, in principle Inkscape itself could be used in a command line mode to create the PDFs. However, on my system, opening files from the command line with Inkscape seems broken (probably due to <a href="https://gitlab.com/inkscape/inkscape/-/issues/3649">this known issue</a>).</p>
+<figure class="cn_fig-100">
+    <img loading="lazy" src="pdf_screenshot.png"
+         alt="Screenshot of inkscape showing an example A5 template"
+         width="2000"
+         height="1301"
+         /> <figcaption>
+            <p>Final PDF after find and replace and combining pages</p>
+        </figcaption>
+</figure>
+
+<aside class="content-box">
+<p>In case they&rsquo;re useful to anyone wanting to do something similar, the complete script (under an MIT license) and templates (under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC 4.0 license</a>) are available at:</p>
+<p><a href="https://github.com/moomop/planner-generator"><svg aria-hidden="true" class="content-icon"><use href="https://coffeenow.moomop.uk/icons.svg#github"></use></svg> <a href="https://github.com/moomop/planner-generator">https://github.com/moomop/planner-generator</a></a></p>
+</aside>
+<h2 id="making-your-own-planner">Making your own planner<a hidden class="anchor" aria-hidden="true" href="#making-your-own-planner">#</a></h2>
+<p>As planner layouts are quite personal, these scripts are&rsquo;t very configurable (e.g. we&rsquo;re only working with a Monday-start week, being from the UK), but if you were thinking of trying the same for your own layout, you&rsquo;d first create templates with whatever art, dot grids and fonts etc. you want with in SVG format, and then tweak the find-and-replace done by the script.</p>
+<p>It would also be possible to update the script to add extra templates (e.g. say you want 3 or 4 pages per week or an end of month retrospective page).</p>
+<h2 id="gotchas-and-future-improvements">Gotchas and future improvements<a hidden class="anchor" aria-hidden="true" href="#gotchas-and-future-improvements">#</a></h2>
+<p>While following this flow, I found a few oddities when viewing the Inkscape-created SVGs in other programs (I tried browsers such as firefox/chrome as well as cairosvg for converting into PDF).</p>
+<p>Although in principle SVG is a standard, so should look the same everywhere (assuming these were valid SVGs - I didn&rsquo;t actually check), I found that some elements could fail to show or display slightly differently in some viewers.</p>
+<p>Rather than fully investigate those, I updated the templates by removing and redrawing those elements. Along the way I also found a few duplicated elements in the SVGs. It could be that some of these issues stem from the rather old version of Inkscape that we&rsquo;d used a few years ago to first create some of these SVG drawings.</p>
+<p>It would definitely be possible to go further and automate more of the geometrical elements of the planner (the dot grids, corner markers etc.) probably using something like <a href="https://pypi.org/project/drawsvg/">drawsvg</a>.</p>
+<hr>
+<h3 id="extra-shots">Extra shots<a hidden class="anchor" aria-hidden="true" href="#extra-shots">#</a></h3>
+<ul>
+<li>&lsquo;The Python Tutorial&rsquo; from python.org<br>
+<a href="https://docs.python.org/3/tutorial/">https://docs.python.org/3/tutorial/</a></li>
+<li>Inkscape beginners' guide<br>
+<a href="https://inkscape-manuals.readthedocs.io">https://inkscape-manuals.readthedocs.io</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+  <hr>
+  <h3>Tagged in:</h3>
+    <ul class="post-tags">
+      <li><a href="https://coffeenow.moomop.uk/tags/planning/">planning</a></li>
+      <li><a href="https://coffeenow.moomop.uk/tags/personalized-planner/">personalized planner</a></li>
+      <li><a href="https://coffeenow.moomop.uk/tags/graphic-design/">graphic design</a></li>
+      <li><a href="https://coffeenow.moomop.uk/tags/python/">python</a></li>
+      <li><a href="https://coffeenow.moomop.uk/tags/svg/">svg</a></li>
+    </ul>
+<hr>
+<nav class="paginav">
+  <a class="prev" href="https://coffeenow.moomop.uk/post/2024/04/london2024/">
+    <span class="navarrowleft">
+        <svg aria-hidden="true" class="nav-arrow"> 
+           <use href="https://coffeenow.moomop.uk/icons.svg#arrow-left"></use>
+        </svg>
+        <span>&nbsp;NEXT POST</span>
+    </span>
+    <span>London marathon revisited: what if it goes right?</span>
+  </a>
+  <a class="next" href="https://coffeenow.moomop.uk/post/2023/07/two-year-blogiversary/">
+    <span class="navarrowright">
+      <span>PREVIOUS POST&nbsp;</span>
+      <svg aria-hidden="true" class="nav-arrow"> 
+        <use href="https://coffeenow.moomop.uk/icons.svg#arrow-right"></use>
+      </svg>
+    </span>
+    <span>Happy blogiversary and  2 months on Mastodon</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 Site authors. All rights reserved.</span>
+    <span>
+        <a href=https://coffeenow.moomop.uk/site-credits/>Made with &#x2764;&#xfe0f;,&nbsp;&#x2615; and more</a>.
+    </span>
+    <span>
+        <a href=https://coffeenow.moomop.uk/privacy/>Privacy policy</a>.
+    </span>
+    <span>
+        <a href=https://coffeenow.moomop.uk/index.xml target="_blank" rel="noopener noreferrer me" aria-label="Go to RSS" title="RSS"><svg aria-hidden="true" class="content-icon"><use href="https://coffeenow.moomop.uk/icons.svg#rss"></use></svg></a>    
+    </span>
+
+</footer>
+
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

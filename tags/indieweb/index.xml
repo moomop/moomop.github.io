@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IndieWeb on Coffee now</title>
+    <link>https://coffeenow.moomop.uk/tags/indieweb/</link>
+    <description>Recent content in IndieWeb on Coffee now</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://coffeenow.moomop.uk/tags/indieweb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an IndieWeb house (I): introduction</title>
+      <link>https://coffeenow.moomop.uk/post/2025/02/indieweb-i/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://coffeenow.moomop.uk/post/2025/02/indieweb-i/</guid>
+      <description>When an email went round at work asking if anyone was up for giving a lunchtime talk on a hobby, I volunteered to do so. I’ve got to be honest that I did suspect ‘static site personal blogging’ might be considered a bit too esoteric for them to accept, but no, they took me up on it. Whelp! That’s now done, so, to record the details, I’m also writing it up as a few blog posts&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

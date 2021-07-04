@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on Coffee now</title>
+    <link>https://coffeenow.moomop.uk/tags/git/</link>
+    <description>Recent content in git on Coffee now</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://coffeenow.moomop.uk/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up the blog (I): getting started with Hugo</title>
+      <link>https://coffeenow.moomop.uk/post/2021/05/setting_up_blog_i/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://coffeenow.moomop.uk/post/2021/05/setting_up_blog_i/</guid>
+      <description>When you make the decision to start a blog, one of the first things you need to consider is what sort of system you&amp;rsquo;re going to use to organise your content.
+If you read any article on starting out blogging, it will almost certainly mention WordPress. WordPress (meaning software available at https://wordpress.org, not to be confused with WordPress.com; see below) is a very common open-source content management system (CMS) for creating websites, including, but far from limited to, those dedicated to blogging.</description>
+    </item>
+    
+  </channel>
+</rss>

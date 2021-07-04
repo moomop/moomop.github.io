@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+<!--  svgs from Feather Icons (https://feathericons.com; MIT License) -->
+
+<symbol id="arrow-right" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline>
+</symbol>
+ 
+<symbol id="arrow-left" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline>
+</symbol>
+
+<symbol id="layers" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></symbol>
+
+<symbol id="tag" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></symbol>
+
+<symbol id="search" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></symbol>
+
+<symbol id="rss" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></symbol>
+
+<symbol id="github" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></symbol>
+
+<symbol id="external-link" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></symbol>
+
+<!--  svgs from Simple Icons (https://simpleicons.org/; Creative Commons Zero v1.0 Universal license) -->
+
+<symbol id="strava" role="img" viewBox="0 0 24 24" fill="currentColor" ><path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/></symbol>
+
+<!--  svgs from orginal papermod theme -->
+
+<symbol id="mastodon" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M21.58 13.913c-.29 1.469-2.592 3.121-5.238 3.396-1.379.184-2.737.368-4.185.276-2.368-.092-4.237-.551-4.237-.551 0 .184.014.459.043.643.308 2.294 2.317 2.478 4.22 2.57 1.922 0 3.633-.46 3.633-.46l.079 1.653s-1.344.734-3.738.918c-1.32.091-2.96-.092-4.869-.551-4.14-1.102-4.853-5.507-4.961-10.005-.034-1.285-.013-2.57-.013-3.58 0-4.589 3-5.966 3-5.966 1.513-.734 4.11-1.01 6.808-1.01h.067c2.699 0 5.296.276 6.81 1.01 0 0 3 1.377 3 5.967 0 0 .037 3.304-.419 5.69"
+        stroke="currentColor"/>
+    <path
+        d="M17.832 8.633v5h-1.978V8.78c0-1.023-.43-1.542-1.29-1.542-.95 0-1.427.616-1.427 1.834v2.655H11.17V9.072c0-1.218-.476-1.834-1.427-1.834-.86 0-1.29.52-1.29 1.542v4.852H6.475V8.633c0-1.022.26-1.834.782-2.434.538-.6 1.243-.909 2.118-.909 1.012 0 1.779.39 2.286 1.169l.492.827.493-.827c.507-.78 1.274-1.169 2.286-1.169.875 0 1.58.308 2.118.909.522.6.782 1.412.782 2.434"
+        fill="currentColor" stroke="none"/>
+</symbol>
+
+<!--  svgs from https://github.com/microsoft/fluentui-system-icons; MIT License -->
+
+
+<symbol id="star-empty" role="img" fill="none"  viewBox="0 0 12 12" ><path d="m5.28347 1.54595c.29345-.594594 1.14132-.594592 1.43478 0l1.11172 2.25261 2.48593.36123c.6562.09534.9182.90172.4433 1.36455l-1.79877 1.75341.42464 2.47586c.11209.65349-.57385 1.15189-1.16076.84339l-2.22345-1.16899-2.22346 1.16899c-.58691.3085-1.27285-.1899-1.16076-.84339l.42464-2.47586-1.79882-1.75341c-.474809-.46283-.2128-1.26921.44338-1.36455l2.4859-.36123zm.71739.80597-.97892 1.9835c-.11653.23611-.34178.39977-.60235.43763l-2.18892.31807 1.58392 1.54394c.18854.18379.27458.44859.23007.7081l-.37391 2.18008 1.95783-1.02929c.23306-.12253.51149-.12253.74455 0l1.95783 1.02929-.37391-2.18007c-.04451-.25952.04153-.52432.23008-.70811l1.58392-1.54394-2.18893-.31807c-.26056-.03786-.48582-.20152-.60235-.43763z" fill="currentColor"/></symbol>
+
+<symbol id="star-full" role="img" fill="none" viewBox="0 0 12 12"  ><path d="m5.28347 1.54595c.29345-.594594 1.14132-.594592 1.43478 0l1.11172 2.25261 2.48593.36123c.6562.09534.9182.90172.4433 1.36455l-1.79877 1.75341.42464 2.47586c.11209.65349-.57385 1.15189-1.16076.84339l-2.22345-1.16899-2.22346 1.16899c-.58691.3085-1.27285-.1899-1.16076-.84339l.42464-2.47586-1.79882-1.75341c-.474809-.46283-.2128-1.26921.44338-1.36455l2.4859-.36123z" fill="currentColor"/></symbol>
+
+<symbol id="star-half" role="img" fill="none"  viewBox="0 0 12 12"  ><path d="m6 9.42843-2.2226 1.16847c-.58691.3086-1.27285-.1898-1.16076-.84332l.42464-2.47586-1.79882-1.75341c-.474809-.46283-.2128-1.26921.44338-1.36455l2.4859-.36123 1.11173-2.25261c.14658-.297.43148-.44565.71653-.44594.28562-.0003.57137.14835.71825.44594l1.11172 2.25261 2.48593.36123c.6562.09535.9182.90172.4433 1.36455l-1.79877 1.75341.42464 2.47586c.11209.65352-.57385 1.15192-1.16076.84332zm0-7.07481v6.04841c.12816-.00014.25634.03049.37313.09189l1.95783 1.02929-.37391-2.18007c-.04451-.25952.04153-.52432.23008-.70811l1.58392-1.54394-2.18893-.31807c-.26056-.03786-.48582-.20152-.60235-.43763l-.97891-1.9835z" fill="currentColor"/></symbol>
+
+<symbol id="star-one-quarter" role="img" fill="none" viewBox="0 0 12 12"  ><path d="m6.71825 1.54592c-.29346-.594593-1.14133-.594594-1.43478 0l-1.11173 2.25256-2.4859.36122c-.42678.06202-.686822.42482-.68584.79825.00052.20073.07646.40454.24246.56636l1.79882 1.75341-.42464 2.47581c-.00701.04086-.0109.08112-.01189.12061-.00113.04538.00156.08975.00775.13286.07458.5195.65685.857 1.1649.5899l2.22346-1.16892 2.22345 1.16892c.58691.3086 1.27285-.1898 1.16076-.84332l-.42464-2.47586 1.79877-1.75341c.4749-.46283.2129-1.26921-.4433-1.36455l-2.48593-.36123zm-1.71825 7.27847v-4.44764c.00769-.01352.01501-.02731.02194-.04136l.97892-1.9835.97891 1.9835c.11653.23611.34179.39977.60235.43763l2.18893.31807-1.58392 1.54394c-.18855.18379-.27459.44859-.23008.7081l.37391 2.18008-1.95783-1.02929c-.23306-.12253-.51149-.12253-.74455 0z" fill="currentColor"/></symbol>
+
+<symbol id="star-three-quarter" role="img" fill="none" viewBox="0 0 12 12" ><path d="m6.71825 1.54592 1.11172 2.25261 2.48593.36123c.6562.09534.9182.90172.4433 1.36455l-1.79877 1.75341.42464 2.47586c.11209.65352-.57385 1.15192-1.16076.84332l-2.22345-1.16892-2.22346 1.16892c-.58691.3086-1.27285-.1898-1.16076-.84332l.42464-2.47586-1.79882-1.75341c-.474809-.46283-.2128-1.26921.44338-1.36455l2.4859-.36123 1.11173-2.25261c.29345-.594594 1.14132-.594593 1.43478 0zm.28175 7.27756 1.33096.69973-.37391-2.18008c-.04451-.25951.04153-.52431.23008-.7081l1.58392-1.54394-2.18893-.31807c-.24622-.03578-.4609-.18388-.58212-.3993z" fill="currentColor"/></symbol>
+
+
+ </svg>
