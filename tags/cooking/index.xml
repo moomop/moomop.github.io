@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cooking on Coffee now</title>
+    <link>https://coffeenow.moomop.uk/tags/cooking/</link>
+    <description>Recent content in cooking on Coffee now</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://coffeenow.moomop.uk/tags/cooking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sourdough</title>
+      <link>https://coffeenow.moomop.uk/post/2021/08/sourdough_process/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://coffeenow.moomop.uk/post/2021/08/sourdough_process/</guid>
+      <description>I&amp;rsquo;ve found myself doing a more than average amount of baking over the last year or so, including bread and in particular sourdough. Here are some notes on the process that I follow to make sourdough&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Subscription review: SimplyCook</title>
+      <link>https://coffeenow.moomop.uk/post/2021/07/simplycook_review/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://coffeenow.moomop.uk/post/2021/07/simplycook_review/</guid>
+      <description>Subscriptions are everywhere&amp;hellip; music, tv, software&amp;hellip; you even are, in a way, a subscriber to social media content, notwithstanding that you aren&amp;rsquo;t very in control of what you see there. Maybe even someone subscribes (via RSS) to this blog, not that I feel that&amp;rsquo;s very likely&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>
